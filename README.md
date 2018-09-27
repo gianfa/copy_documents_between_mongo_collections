@@ -2,7 +2,7 @@
 A little module to copy documents from a MongoDB Collection to another one, also in another MongoDB.
 
 ## How to use it
-Just copy the files on your working directory and follow the *proof.js* lines.
+Just copy the files into your working directory and follow the *proof.js* lines.
 
 ## How it is made
 Given that the origin Collection and the destination Collection can be in different MongoDBs, even in different Connection Addresses (for instance, origin: mongodb://192.42.123.6:27017 and destination: mongodb://152.32.163.6:27017), this module will retrieve documents from the origin in order to put them into the destination.<br>
