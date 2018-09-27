@@ -90,6 +90,8 @@ var insert_documents_into_collection = (dest_url, dest_dbName, dest_coll, docSch
 /* 
  * Schema Retriever
  * Retrieves the DB Mongoose Schemas from a MongoDB, and save it in a JSON file.
+ * It's based on the very nice module {@link module:xyzcorp/helper}.
+ * @requires extract-mongo-schema
  * @param {string} orig_url - Url of the DB from which to take the documents.
  * @param {string} orig_dbName - Name of the DB from which to take the documents.
  */ 
